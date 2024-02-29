@@ -1,11 +1,12 @@
 # Clientes_api
 Ejercicio de micro servicios usando ApiRESTful 
-los end point son
-/api/vi/clientes  #llama a todos los datos de los clientes en json -->para buscar se utuliza una peticion http "get"
-/api/v1/cliente   #es para crear un cliente nuevo -->para buscar se utuliza una peticion http "post"
-/api/v1/cliente/{id} #actualiza un cliente con un id unico -->para buscar se utuliza una peticion http "put"
-/api/vi/cliente_dele/{id} #borra un cliente de cuerdo con su id unico -->utiliza una peticion http "delete"
-/api/vi/cliente/{id} #busca un cliente de acuerdo al id unico y muestra los datos del mismo  -->para buscar se utuliza una peticion http "get"
+la codificacion de los serviios se encuentran en la carpeta -->nombre del servicio-->src
+los end point son:
+-/api/vi/clientes  #llama a todos los datos de los clientes en json -->para buscar se utuliza una peticion http "get"
+-/api/v1/cliente   #es para crear un cliente nuevo -->para buscar se utuliza una peticion http "post"
+-/api/v1/cliente/{id} #actualiza un cliente con un id unico -->para buscar se utuliza una peticion http "put"
+-/api/vi/cliente_dele/{id} #borra un cliente de cuerdo con su id unico -->utiliza una peticion http "delete"
+-/api/vi/cliente/{id} #busca un cliente de acuerdo al id unico y muestra los datos del mismo  -->para buscar se utuliza una peticion http "get"
 
 
 esta api usa 4 microservicios 
